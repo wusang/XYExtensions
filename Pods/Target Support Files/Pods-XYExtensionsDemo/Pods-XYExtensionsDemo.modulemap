@@ -1,0 +1,6 @@
+framework module Pods_XYExtensionsDemo {
+  umbrella header "Pods-XYExtensionsDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
