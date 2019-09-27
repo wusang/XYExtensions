@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "XYExtensions"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "分类"
 
 
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/wusang/XYExtensions.git", :tag => s.version }
 
 
-  s.source_files  = "XYExtensions/XYCategories.h"
+  s.source_files  = "XYExtensions/XYExtensions.h"
 
    s.subspec "UIKit" do |ss|
     ss.source_files =  "XYExtensions/UIKit/*.{h,m}"

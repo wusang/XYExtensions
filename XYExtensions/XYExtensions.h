@@ -1,13 +1,13 @@
 //
-//  XYCategories.h
+//  XYExtensions.h
 //  XYManageTool
 //
 //  Created by wuxiaoyuan on 2019/9/25.
 //  Copyright © 2019 lange. All rights reserved.
 //
 
-#ifndef XYCategories_h
-#define XYCategories_h
+#ifndef XYExtensions_h
+#define XYExtensions_h
 
 //弱引用化
 #define WeakObj(o)      __weak typeof(o) o##Weak = o
@@ -51,4 +51,4 @@
 
 
 
-#endif /* XYCategories_h */
+#endif /* XYExtensions_h */

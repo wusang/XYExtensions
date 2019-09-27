@@ -74,7 +74,7 @@
 		D765D968233CEAF7004F14D8 /* XYExtensionsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYExtensionsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D765D96C233CEAF7004F14D8 /* XYExtensionsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYExtensionsDemoUITests.m; sourceTree = "<group>"; };
 		D765D96E233CEAF7004F14D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D765D9B8233CF2E3004F14D8 /* XYCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCategories.h; sourceTree = "<group>"; };
+		D765D9B8233CF2E3004F14D8 /* XYExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYExtensions.h; sourceTree = "<group>"; };
 		D765D9BA233CF2E3004F14D8 /* UIColor+XY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XY.m"; sourceTree = "<group>"; };
 		D765D9BB233CF2E3004F14D8 /* UIViewController+XY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XY.h"; sourceTree = "<group>"; };
 		D765D9BC233CF2E3004F14D8 /* UIWindow+XY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+XY.m"; sourceTree = "<group>"; };
@@ -221,7 +221,7 @@
 		D765D9B7233CF2E3004F14D8 /* XYExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				D765D9B8233CF2E3004F14D8 /* XYCategories.h */,
+				D765D9B8233CF2E3004F14D8 /* XYExtensions.h */,
 				D765D9B9233CF2E3004F14D8 /* UIKit */,
 				D765D9CE233CF2E3004F14D8 /* Foundation */,
 			);
@@ -231,26 +231,26 @@
 		D765D9B9233CF2E3004F14D8 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				D765D9BA233CF2E3004F14D8 /* UIColor+XY.m */,
-				D765D9BB233CF2E3004F14D8 /* UIViewController+XY.h */,
-				D765D9BC233CF2E3004F14D8 /* UIWindow+XY.m */,
-				D765D9BD233CF2E3004F14D8 /* UIDevice+XY.h */,
-				D765D9BE233CF2E3004F14D8 /* UIWebView+XY.m */,
+				D765D9CB233CF2E3004F14D8 /* UIButton+XY.h */,
 				D765D9BF233CF2E3004F14D8 /* UIButton+XY.m */,
+				D765D9C6233CF2E3004F14D8 /* UIColor+XY.h */,
+				D765D9BA233CF2E3004F14D8 /* UIColor+XY.m */,
+				D765D9BD233CF2E3004F14D8 /* UIDevice+XY.h */,
+				D765D9C4233CF2E3004F14D8 /* UIDevice+XY.m */,
+				D765D9C2233CF2E3004F14D8 /* UIImage+XY.h */,
+				D765D9CD233CF2E3004F14D8 /* UIImage+XY.m */,
+				D765D9C3233CF2E3004F14D8 /* UIImageView+XY.h */,
+				D765D9CC233CF2E3004F14D8 /* UIImageView+XY.m */,
+				D765D9CA233CF2E3004F14D8 /* UINavigationBar+XY.h */,
 				D765D9C0233CF2E3004F14D8 /* UINavigationBar+XY.m */,
 				D765D9C1233CF2E3004F14D8 /* UIView+XY.h */,
-				D765D9C2233CF2E3004F14D8 /* UIImage+XY.h */,
-				D765D9C3233CF2E3004F14D8 /* UIImageView+XY.h */,
-				D765D9C4233CF2E3004F14D8 /* UIDevice+XY.m */,
-				D765D9C5233CF2E3004F14D8 /* UIWindow+XY.h */,
-				D765D9C6233CF2E3004F14D8 /* UIColor+XY.h */,
+				D765D9C9233CF2E3004F14D8 /* UIView+XY.m */,
+				D765D9BB233CF2E3004F14D8 /* UIViewController+XY.h */,
 				D765D9C7233CF2E3004F14D8 /* UIViewController+XY.m */,
 				D765D9C8233CF2E3004F14D8 /* UIWebView+XY.h */,
-				D765D9C9233CF2E3004F14D8 /* UIView+XY.m */,
-				D765D9CA233CF2E3004F14D8 /* UINavigationBar+XY.h */,
-				D765D9CB233CF2E3004F14D8 /* UIButton+XY.h */,
-				D765D9CC233CF2E3004F14D8 /* UIImageView+XY.m */,
-				D765D9CD233CF2E3004F14D8 /* UIImage+XY.m */,
+				D765D9BE233CF2E3004F14D8 /* UIWebView+XY.m */,
+				D765D9C5233CF2E3004F14D8 /* UIWindow+XY.h */,
+				D765D9BC233CF2E3004F14D8 /* UIWindow+XY.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -258,26 +258,26 @@
 		D765D9CE233CF2E3004F14D8 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				D765D9CF233CF2E3004F14D8 /* NSFileManager+XY.h */,
-				D765D9D0233CF2E3004F14D8 /* NSBundle+XY.h */,
-				D765D9D1233CF2E3004F14D8 /* NSDate+XY.h */,
-				D765D9D2233CF2E3004F14D8 /* NSNumber+XY.h */,
-				D765D9D3233CF2E3004F14D8 /* NSObject+XY.m */,
-				D765D9D4233CF2E3004F14D8 /* NSString+XY.m */,
-				D765D9D5233CF2E3004F14D8 /* NSUserDefaults+XY.m */,
 				D765D9D6233CF2E3004F14D8 /* NSArray+XY.h */,
-				D765D9D7233CF2E3004F14D8 /* NSMutableAttributedString+XY.h */,
-				D765D9D8233CF2E3004F14D8 /* NSDictionary+XY.h */,
-				D765D9D9233CF2E3004F14D8 /* NSFileManager+XY.m */,
-				D765D9DA233CF2E3004F14D8 /* NSNumber+XY.m */,
-				D765D9DB233CF2E3004F14D8 /* NSBundle+XY.m */,
-				D765D9DC233CF2E3004F14D8 /* NSDate+XY.m */,
-				D765D9DD233CF2E3004F14D8 /* NSUserDefaults+XY.h */,
-				D765D9DE233CF2E3004F14D8 /* NSString+XY.h */,
-				D765D9DF233CF2E3004F14D8 /* NSObject+XY.h */,
-				D765D9E0233CF2E3004F14D8 /* NSDictionary+XY.m */,
-				D765D9E1233CF2E3004F14D8 /* NSMutableAttributedString+XY.m */,
 				D765D9E2233CF2E3004F14D8 /* NSArray+XY.m */,
+				D765D9D0233CF2E3004F14D8 /* NSBundle+XY.h */,
+				D765D9DB233CF2E3004F14D8 /* NSBundle+XY.m */,
+				D765D9D1233CF2E3004F14D8 /* NSDate+XY.h */,
+				D765D9DC233CF2E3004F14D8 /* NSDate+XY.m */,
+				D765D9D8233CF2E3004F14D8 /* NSDictionary+XY.h */,
+				D765D9E0233CF2E3004F14D8 /* NSDictionary+XY.m */,
+				D765D9CF233CF2E3004F14D8 /* NSFileManager+XY.h */,
+				D765D9D9233CF2E3004F14D8 /* NSFileManager+XY.m */,
+				D765D9D7233CF2E3004F14D8 /* NSMutableAttributedString+XY.h */,
+				D765D9E1233CF2E3004F14D8 /* NSMutableAttributedString+XY.m */,
+				D765D9D2233CF2E3004F14D8 /* NSNumber+XY.h */,
+				D765D9DA233CF2E3004F14D8 /* NSNumber+XY.m */,
+				D765D9DF233CF2E3004F14D8 /* NSObject+XY.h */,
+				D765D9D3233CF2E3004F14D8 /* NSObject+XY.m */,
+				D765D9DE233CF2E3004F14D8 /* NSString+XY.h */,
+				D765D9D4233CF2E3004F14D8 /* NSString+XY.m */,
+				D765D9DD233CF2E3004F14D8 /* NSUserDefaults+XY.h */,
+				D765D9D5233CF2E3004F14D8 /* NSUserDefaults+XY.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
