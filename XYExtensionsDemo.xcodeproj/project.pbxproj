@@ -36,6 +36,12 @@
 		D765D9F4233CF2E3004F14D8 /* NSDictionary+XY.m in Sources */ = {isa = PBXBuildFile; fileRef = D765D9E0233CF2E3004F14D8 /* NSDictionary+XY.m */; };
 		D765D9F5233CF2E3004F14D8 /* NSMutableAttributedString+XY.m in Sources */ = {isa = PBXBuildFile; fileRef = D765D9E1233CF2E3004F14D8 /* NSMutableAttributedString+XY.m */; };
 		D765D9F6233CF2E3004F14D8 /* NSArray+XY.m in Sources */ = {isa = PBXBuildFile; fileRef = D765D9E2233CF2E3004F14D8 /* NSArray+XY.m */; };
+		D784A9502341E4B400D66C52 /* XYBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D784A94F2341E4B400D66C52 /* XYBaseView.m */; };
+		D784A95C2341E58400D66C52 /* XYNetMonitoring.m in Sources */ = {isa = PBXBuildFile; fileRef = D784A9532341E58300D66C52 /* XYNetMonitoring.m */; };
+		D784A95D2341E58400D66C52 /* XYNetManger.m in Sources */ = {isa = PBXBuildFile; fileRef = D784A9552341E58300D66C52 /* XYNetManger.m */; };
+		D784A95E2341E58400D66C52 /* XYUploadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D784A9582341E58300D66C52 /* XYUploadModel.m */; };
+		D784A95F2341E58400D66C52 /* NSError+XYNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D784A95A2341E58300D66C52 /* NSError+XYNetManager.m */; };
+		D784A9602341E58400D66C52 /* NSArray+XYNet.m in Sources */ = {isa = PBXBuildFile; fileRef = D784A95B2341E58400D66C52 /* NSArray+XYNet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +121,18 @@
 		D765D9E0233CF2E3004F14D8 /* NSDictionary+XY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XY.m"; sourceTree = "<group>"; };
 		D765D9E1233CF2E3004F14D8 /* NSMutableAttributedString+XY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+XY.m"; sourceTree = "<group>"; };
 		D765D9E2233CF2E3004F14D8 /* NSArray+XY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XY.m"; sourceTree = "<group>"; };
+		D784A94E2341E4B400D66C52 /* XYBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYBaseView.h; sourceTree = "<group>"; };
+		D784A94F2341E4B400D66C52 /* XYBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYBaseView.m; sourceTree = "<group>"; };
+		D784A9522341E58300D66C52 /* XYNetMonitoring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYNetMonitoring.h; sourceTree = "<group>"; };
+		D784A9532341E58300D66C52 /* XYNetMonitoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYNetMonitoring.m; sourceTree = "<group>"; };
+		D784A9542341E58300D66C52 /* XYUploadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYUploadModel.h; sourceTree = "<group>"; };
+		D784A9552341E58300D66C52 /* XYNetManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYNetManger.m; sourceTree = "<group>"; };
+		D784A9562341E58300D66C52 /* NSArray+XYNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XYNet.h"; sourceTree = "<group>"; };
+		D784A9572341E58300D66C52 /* NSError+XYNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+XYNetManager.h"; sourceTree = "<group>"; };
+		D784A9582341E58300D66C52 /* XYUploadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYUploadModel.m; sourceTree = "<group>"; };
+		D784A9592341E58300D66C52 /* XYNetManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYNetManger.h; sourceTree = "<group>"; };
+		D784A95A2341E58300D66C52 /* NSError+XYNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+XYNetManager.m"; sourceTree = "<group>"; };
+		D784A95B2341E58400D66C52 /* NSArray+XYNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XYNet.m"; sourceTree = "<group>"; };
 		DEE91AB5872431E072EDE5BD /* Pods-XYExtensionsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYExtensionsDemo.release.xcconfig"; path = "Target Support Files/Pods-XYExtensionsDemo/Pods-XYExtensionsDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -222,6 +240,8 @@
 			isa = PBXGroup;
 			children = (
 				D765D9B8233CF2E3004F14D8 /* XYExtensions.h */,
+				D784A9512341E55500D66C52 /* XYNetManger */,
+				D784A94D2341E2F200D66C52 /* Base */,
 				D765D9B9233CF2E3004F14D8 /* UIKit */,
 				D765D9CE233CF2E3004F14D8 /* Foundation */,
 			);
@@ -280,6 +300,32 @@
 				D765D9D5233CF2E3004F14D8 /* NSUserDefaults+XY.m */,
 			);
 			path = Foundation;
+			sourceTree = "<group>";
+		};
+		D784A94D2341E2F200D66C52 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D784A94E2341E4B400D66C52 /* XYBaseView.h */,
+				D784A94F2341E4B400D66C52 /* XYBaseView.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D784A9512341E55500D66C52 /* XYNetManger */ = {
+			isa = PBXGroup;
+			children = (
+				D784A9562341E58300D66C52 /* NSArray+XYNet.h */,
+				D784A95B2341E58400D66C52 /* NSArray+XYNet.m */,
+				D784A9572341E58300D66C52 /* NSError+XYNetManager.h */,
+				D784A95A2341E58300D66C52 /* NSError+XYNetManager.m */,
+				D784A9592341E58300D66C52 /* XYNetManger.h */,
+				D784A9552341E58300D66C52 /* XYNetManger.m */,
+				D784A9522341E58300D66C52 /* XYNetMonitoring.h */,
+				D784A9532341E58300D66C52 /* XYNetMonitoring.m */,
+				D784A9542341E58300D66C52 /* XYUploadModel.h */,
+				D784A9582341E58300D66C52 /* XYUploadModel.m */,
+			);
+			path = XYNetManger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -458,10 +504,12 @@
 			files = (
 				D765D9F1233CF2E3004F14D8 /* NSNumber+XY.m in Sources */,
 				D765D9F6233CF2E3004F14D8 /* NSArray+XY.m in Sources */,
+				D784A95D2341E58400D66C52 /* XYNetManger.m in Sources */,
 				D765D9F3233CF2E3004F14D8 /* NSDate+XY.m in Sources */,
 				D765D9E3233CF2E3004F14D8 /* UIColor+XY.m in Sources */,
 				D765D9EC233CF2E3004F14D8 /* UIImage+XY.m in Sources */,
 				D765D9EF233CF2E3004F14D8 /* NSUserDefaults+XY.m in Sources */,
+				D784A9502341E4B400D66C52 /* XYBaseView.m in Sources */,
 				D765D9E4233CF2E3004F14D8 /* UIWindow+XY.m in Sources */,
 				D765D9F4233CF2E3004F14D8 /* NSDictionary+XY.m in Sources */,
 				D765D9E5233CF2E3004F14D8 /* UIWebView+XY.m in Sources */,
@@ -472,13 +520,17 @@
 				D765D94D233CEAF6004F14D8 /* ViewController.m in Sources */,
 				D765D958233CEAF7004F14D8 /* main.m in Sources */,
 				D765D9EA233CF2E3004F14D8 /* UIView+XY.m in Sources */,
+				D784A95F2341E58400D66C52 /* NSError+XYNetManager.m in Sources */,
 				D765D9F0233CF2E3004F14D8 /* NSFileManager+XY.m in Sources */,
+				D784A9602341E58400D66C52 /* NSArray+XYNet.m in Sources */,
 				D765D9EE233CF2E3004F14D8 /* NSString+XY.m in Sources */,
+				D784A95C2341E58400D66C52 /* XYNetMonitoring.m in Sources */,
 				D765D9E6233CF2E3004F14D8 /* UIButton+XY.m in Sources */,
 				D765D9E8233CF2E3004F14D8 /* UIDevice+XY.m in Sources */,
 				D765D9F2233CF2E3004F14D8 /* NSBundle+XY.m in Sources */,
 				D765D9E7233CF2E3004F14D8 /* UINavigationBar+XY.m in Sources */,
 				D765D94A233CEAF6004F14D8 /* AppDelegate.m in Sources */,
+				D784A95E2341E58400D66C52 /* XYUploadModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

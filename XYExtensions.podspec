@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "XYExtensions"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "分类"
 
 
@@ -34,7 +34,17 @@ Pod::Spec.new do |s|
     ss.dependency "TFHpple"
   end
 
+  s.subspec "XYNetManger" do |ss|
+    ss.source_files =  "XYExtensions/XYNetManger/*.{h,m}"
+    ss.dependency "AFNetworking","3.1.0"
+    ss.dependency "Reachability"
+
+  end
  
+  s.subspec "Base" do |ss|
+    ss.source_files =  "XYExtensions/Base/*.{h,m}"
+   
+  end
 
 
   s.requires_arc = true
