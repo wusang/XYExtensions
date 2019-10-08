@@ -4,7 +4,7 @@ use_frameworks!
 target 'XYExtensionsDemo’ do
 
 pod 'TFHpple'
-pod 'AFNetworking', '3.1.0'
+pod 'AFNetworking'
 pod 'Reachability'
 
 end

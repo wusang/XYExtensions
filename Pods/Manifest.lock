@@ -18,7 +18,7 @@ PODS:
   - TFHpple (2.0.0)
 
 DEPENDENCIES:
-  - AFNetworking (= 3.1.0)
+  - AFNetworking
   - Reachability
   - TFHpple
 
@@ -33,6 +33,6 @@ SPEC CHECKSUMS:
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   TFHpple: a916fe0799eb30aa29b2670d14d5868cdd3a5b81
 
-PODFILE CHECKSUM: 77afe5b9e0f7f819a02b0d433e13c13fa3213d00
+PODFILE CHECKSUM: de2bf58c610ab34c3f3eccfb98720e55a5613d5a
 
 COCOAPODS: 1.7.0.beta.2

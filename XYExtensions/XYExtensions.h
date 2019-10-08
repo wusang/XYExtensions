@@ -25,6 +25,11 @@
 #define IsArrEmpty(_ref)                  (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]) ||([(_ref) count] == 0) || ([(_ref) isKindOfClass:[NSNull class]]))
 #define IsObjEmpty(_ref)                  (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]) || ([(_ref) isKindOfClass:[NSNull class]]))
 
+// 颜色
+#define XY_ColorWithHex(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define XY_ColorWithHexA(rgbValue,aValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:aValue]
+#define XY_RGBToHex(r,g,b,hex) {hex = r << 16 | g << 8 | b;}
+
 /** UIKit */
 #import "UIImage+XY.h"
 #import "UIView+XY.h"
